@@ -215,74 +215,32 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-<<<<<<< HEAD
-=======
-body {
-    background: #baecf0;
-    margin: 0px;
-}
-a:link {
-    text-decoration: none;
+
+@media only screen and (max-width: 640px) {
+  #logo {
+    position: static;
+    width: 100%;
+    top: 0px;
   }
-  
-a:visited {
-    text-decoration: none;
+  header {
+    position: static;
   }
-  
-a:hover {
-    text-decoration: none;
+  nav {
+    margin-right: 30%;
   }
-  
-a:active {
-    text-decoration: none;
+  .main-section {
+    margin: 5% 5px 5px 30px;
   }
-a {
-    font-size: 25px;
-    font-weight: bold;
-    color: #cccccc;
 }
 
-img {
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-right: 15px;
+@media only screen and (max-width: 768px) {
+  .main-section {
+    width: 80%;
+  }
 }
 
-.overLay {
-    position: absolute;
-    background: #4aaaa5;
-    bottom: 5px;
-    text-align: center;
-    padding: 5px 0px;
-    width: 100%;
-    margin: auto;
+@media only screen and (max-width: 980px) {
+  .main-section {
+
+  }
 }
-.portfolioImages {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    width: 300px;
-    float: left;
-    position: relative;
-    margin-right: 15px;
-}
-/*
-.imageFloat {
-    float: left;
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: inline;
-}
-*/
-.contactMe {
-    width: 100%;
-}
-input {
-    width: 100%;
-}
-textarea {
-    width: 100%;
-}
->>>>>>> b194aa02c5176858f0229be146cd745dc3d78cba
